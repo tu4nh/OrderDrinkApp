@@ -33,7 +33,6 @@ public class ThanhToanDAO {
             thanhToanDTO.setTenMon(cursor.getString(cursor.getColumnIndex(CreateDatabase.TBL_MON_TENMON)));
             thanhToanDTO.setHinhAnh(cursor.getBlob(cursor.getColumnIndex(CreateDatabase.TBL_MON_HINHANH)));
             thanhToanDTOS.add(thanhToanDTO);
-
             cursor.moveToNext();
         }
 
